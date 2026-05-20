@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: test-app
+
+  profiles:
+    active: dev
+
+  config:
+    import: configserver:http://localhost:8888

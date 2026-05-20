@@ -1,5 +1,5 @@
 server:
-  port: 8080
+  port: 8888
 
 spring:
   application:
@@ -13,5 +13,6 @@ spring:
       server:
         git:
           uri: https://github.com/Abhi-Dev0/ManaLink.git
+          default-label: init-setup
           timeout: 4
           search-paths: config/{profile}
